@@ -1,7 +1,7 @@
 <aura:component controller="HelloWorldController" implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
   <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
   <aura:attribute name="greeting" type="String" default="World" />
-  <aura:attribute name="Test1" type="String" default="have a good day!" />
+  <aura:attribute name="Test1" type="String" default="have a good day and happy weekend:)" />
 <lightning:input name="Greeting" label="Greeting" value="{!v.greeting}"/>
   Hello, {!v.greeting}!
 <lightning:input name="Hi" label="Hi" value="{!v.Test1}"/>
